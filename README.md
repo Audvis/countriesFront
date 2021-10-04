@@ -1,4 +1,4 @@
-# countriesFront
+# Countries Front-End
 
 <a><img width="30%" src="https://github.com/Audvis/countriesFront/blob/main/utilities/countriesPC1.png"></a>
 <a><img width="30%" src="https://github.com/Audvis/countriesFront/blob/main/utilities/countriesPC2.png"></a>
