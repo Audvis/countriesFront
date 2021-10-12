@@ -1,0 +1,28 @@
+.sideBar {
+  position: fixed;
+  top: 100px;
+  max-width: 350px;
+  height: 750px;
+  background-color: var(--fdC);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  box-shadow: var(--shadowBox);
+  z-index: 50;
+}
+
+.close{
+    background-color: var(--alert);
+    border-radius: var(--radius);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--flC);
+    border: none;
+    box-shadow:  1px 1px 1px
+    rgba(0, 0, 0, 0.5) ;
+    padding: 2px 7px 2px 7px;
+}
+
+.close:hover{
+  background-color: var(--success);
+}

@@ -1,0 +1,13 @@
+.container{
+    margin: auto;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.li{
+    list-style: none;
+    margin-left: 5px;
+    
+}
+

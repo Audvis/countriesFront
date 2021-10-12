@@ -1,0 +1,15 @@
+.container{
+    margin: 50px;
+    margin-bottom: 10px;
+}
+
+.display{
+    background-color: var(--flC);
+    width: 200px;
+    height: 270px;
+    border-radius: var(--radius);
+    box-shadow: var(--innerShadow);
+   padding: 10px;
+   margin-bottom: 20px;
+}
+

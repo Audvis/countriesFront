@@ -1,0 +1,125 @@
+.container{
+    margin: auto;
+    margin-top: 150px;
+    background-color: var(--flC);
+    box-shadow: var(--innerShadow);
+    border-radius: var(--radius);
+    min-height: 730px;
+    max-height: fit-content;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.flexOne{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contFlagCont{
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 40px;
+    background-color: var(--lC);
+    box-shadow: var(--innerShadow);
+    border-radius: var(--radius);
+    width: 390px;
+    height: max-content;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contFlag{
+margin-top: 14px;
+margin-left: 20px;
+    background-color: var(--lC);
+    box-shadow: var(--shadowBox);
+    border-radius: var(--radius);
+    width: max-content;
+    text-align: center;
+}
+
+.flag{
+    width: 350px;
+    box-direction: 3px solid red;
+    border-radius: var(--radius);
+}
+
+.contName{
+    background-color: var(--fdC);
+    color: var(--lC);
+    box-shadow: var(--shadowBox);
+    border-radius: var(--radius);
+    width: 400px;
+    height: max-content;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 25px;
+}
+
+.title{
+    color: var(--flC);
+}
+
+.flexTwo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.containerCont{
+    background-color: var(--lC);
+    box-shadow: var(--shadowBox);
+    border-radius: var(--radius);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+
+.contList{
+    background-color: var(--lC);
+    box-shadow: var(--innerShadow);
+    border-radius: var(--radius);
+    width: 500px;
+    min-height: 300px;
+    max-height: fit-content;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.data{
+    font-weight: bold;
+    color: var(--fdC);
+}
+
+.p{
+    font-weight: 500;
+    color: var(--dC);
+}
+
+.span{
+    color: var(--dC);
+    font-weight: 400;
+}
+
+.keyCont{
+    margin-left: 115px;
+    background-color: var(--flC);
+    box-shadow: var(--innerShadowBtn);
+    width: 70px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+/* .key{
+    
+
+} */

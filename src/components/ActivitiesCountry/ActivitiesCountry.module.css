@@ -1,0 +1,31 @@
+
+
+.contTitle{
+    background-color: var(--fdC);
+    box-shadow: var(--shadowBox);
+    border-radius: 7px;
+    width: 120px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.title{
+    color: var(--flC);
+}
+
+.ul{
+    margin-right: 40px;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    color: var(--fdC);
+    font-weight: 700;
+}
+
+.li{
+    display: flex;
+    justify-content: space-around;
+}

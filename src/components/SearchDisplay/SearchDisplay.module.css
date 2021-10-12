@@ -1,0 +1,40 @@
+.display{
+   color: var;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   width: 170px;
+   background-color: var(--fdC);
+   margin: auto;
+   margin-top: 90px;
+   border-radius: var(--radius);
+   box-shadow: var(--shadowBoxBtn);
+   border: solid 2px var(--success);
+}
+
+.search{
+    color: var(--flC);
+    font-size: 17px;
+}
+
+.displayNot{
+    color: var;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 170px;
+    background-color: var(--fdC);
+    margin: auto;
+    margin-top: 90px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadowBoxBtn);
+    border: solid 2px var(--alert);
+  
+ }
+
+ .searchNot{
+    color: var(--flC);
+    font-size: 17px;
+}

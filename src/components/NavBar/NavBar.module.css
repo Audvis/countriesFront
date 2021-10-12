@@ -1,0 +1,29 @@
+.nav{
+    background-color: var(--fdC);
+   position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: var(--shadowBox);
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.ul{
+    display: flex;
+    margin-left: 700px;
+}
+
+.li{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+

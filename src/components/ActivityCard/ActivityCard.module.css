@@ -1,0 +1,115 @@
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.li{
+    margin: 25px;
+    
+    background-color: var(--lC);
+    box-shadow: var(--shadowBox);
+    border-radius: var(--radius);
+    width: 225px;
+    height: 250px;
+    text-align: center;
+   padding-top: 5px;
+}
+
+.contTitle{
+    background-color: var(--flC);
+    box-shadow: var(--innerShadowBtn);
+    border-radius: var(--radius);
+   width: 200px;
+   margin: auto;
+}
+
+.p{
+    font-weight: 400;
+}
+
+.btn{
+    color: var(--flC);
+    background-color: var(--fdC);
+    border-radius: var(--radius);
+    border: 1px solid var(--alert);
+    box-shadow: var(--shadowBoxBtn);
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+
+}
+
+.btn:hover{
+    box-shadow: 0 0 0 ; 
+    font-size: 14px;
+    border: 1px solid var(--success);
+    transition-duration: var(--duration);
+}
+
+.data{
+    color: var(--fdC);
+    font-weight: 700;
+}
+.delete{
+    margin-left: 170px;
+   background-color: var(--alert);
+   color: var(--flC);
+   border: none;
+   box-shadow: 1px 2px 2px
+   rgba(0, 0, 0, 0.7);
+   border-radius: var(--radius);
+}
+
+.delete:hover{
+    background-color: var(--success);
+    transition-duration: var(--duration);
+}
+
+.pop{
+    background-color: var(--fdC);
+    border-radius: var(--radius);
+    box-shadow: var(--shadowBox);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 30%;
+   margin: auto;
+margin-top: 100px;
+color: var(--flC);
+}
+
+.delBtn{
+    border-radius: var(--radius);
+    margin: 10px;
+    border: none;
+    box-shadow: 1px 2px 2px
+    rgba(0, 0, 0, 0.7);
+    width: 70px;
+}
+
+.delBtn:hover{
+    background-color: var(--success);
+    color: var(--flC);
+}
+
+.delBtnYes{
+    border-radius: var(--radius);
+    margin: 10px;
+    border: none;
+    box-shadow: 1px 2px 2px
+    rgba(0, 0, 0, 0.7);
+    width: 70px;
+}
+
+.delBtnYes:hover{
+    background-color: var(--alert);
+    color: var(--flC);
+}
+
+.span{
+    color: var(--success);
+}

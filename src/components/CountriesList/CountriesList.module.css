@@ -1,0 +1,36 @@
+.ul {
+  background-color: var(--flC);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 66%;
+
+  min-width: min-content;
+  height: max-content;
+  border-radius: var(--radius);
+  box-shadow: var(--innerShadow);
+  /* position: absolute;
+  top: 115px;
+  left: 19%; */
+  margin-top: 150px;
+  margin-left: 390px;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+
+.li {
+  list-style: none;
+  width: 166px;
+  margin-right: 70px;
+}
+.flag {
+  width: 20px;
+}
+
+.name {
+  color: blue;
+}
+
+.continent {
+  color: blueviolet;
+}

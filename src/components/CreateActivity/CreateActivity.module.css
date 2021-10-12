@@ -1,0 +1,22 @@
+.container{
+   margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contForm{
+    background-color: var(--flC);
+    justify-content: space-around;
+    width: 40%;
+    min-height: 550px;
+    max-height: fit-content;
+    min-width: fit-content;
+    border-radius: var(--radius);
+    box-shadow: var(--innerShadow);
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}

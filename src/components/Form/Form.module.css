@@ -1,0 +1,52 @@
+.form{
+    margin: 100px;
+    background-color: var(--fdC);
+    height: 200px;
+    width: 10%;
+    min-width: fit-content;
+    border-radius: var(--radius);
+    box-shadow: var(--shadowBox);
+   padding: 40px;
+   padding-top: 5px;
+   padding-bottom: 70px;
+   display: flex;
+   flex-direction: column;
+ justify-items: center;
+}
+
+.title{
+    color: var(--flC);
+    text-align: center;
+}
+
+.label{
+    color: var(--flC);
+    margin-right: 11px;
+}
+
+.alert{
+    color: var(--alert);
+}
+
+.success{
+    color: var(--success)
+}
+
+.middle{
+    margin-bottom: 10px;
+}
+
+.middleLast{
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: var(--flC);
+    border-radius: var(--radius);
+  
+    box-shadow: var(--shadowBoxBtn2);
+}
+
+.btn:hover{
+  box-shadow: 0 0 0 ;
+}
