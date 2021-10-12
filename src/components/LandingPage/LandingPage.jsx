@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div className={style.container}>
       <div className={style.subContainer}>
         <div className={style.contTitle}>
-          <h1 className={style.h1}>Countries App New</h1>
+          <h1 className={style.h1}>Countries App</h1>
         </div>
         <div className={style.contContImg}>
           <div className={style.contImg}>
