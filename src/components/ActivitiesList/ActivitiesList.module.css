@@ -12,8 +12,9 @@
 }
 @media (max-width: 768px) {
     .container{
-        margin-top: 100px;
+        margin-top: 150px;
        padding: 20px;
+       width: 80%;
     }
   }
 
