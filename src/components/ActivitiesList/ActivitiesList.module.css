@@ -8,8 +8,14 @@
     max-height: max-content;
    width: 70%;
    padding: 20px;
+   
 }
-
+@media (max-width: 768px) {
+    .container{
+        margin-top: 100px;
+       padding: 20px;
+    }
+  }
 
 .subContainer{
     display: flex;
@@ -47,8 +53,11 @@
   top: 20px;
  text-align: center;
 }
-
-
+@media (max-width: 768px) {
+    .contAddTitle{
+       left: 17px;
+    }
+  }
 
 .titleAdd{
     color: var(--fdC);
@@ -66,6 +75,12 @@
   position: relative;
   border: 2px solid var(--lC);
 }
+@media (max-width: 768px) {
+    .add{
+        margin-top: 50px;
+      width: 70vw;
+    }
+  }
 
 .add:hover{
     box-shadow:  6px 6px 3px
@@ -82,9 +97,12 @@
     right: 20px;
     bottom: 15px;
 }
-
 .icon:hover{
     color: var(--success);
     transition-duration: var(--duration);
 }
-
+@media (max-width: 768px) {
+    .icon{
+        font-size: 30px;
+    }
+  }

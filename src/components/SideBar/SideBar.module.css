@@ -9,6 +9,16 @@
   box-shadow: var(--shadowBox);
   z-index: 50;
 }
+@media (max-width: 768px) {
+  .sideBar{
+    overflow:auto;
+    max-width: 100vw;
+    margin-top: 30px;
+    font-size: 10px;
+    height: fit-content;
+  }
+  
+}
 
 .close{
     background-color: var(--alert);

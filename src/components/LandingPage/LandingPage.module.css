@@ -4,6 +4,11 @@
     padding-top: 70px;
     padding-bottom: 50px;
 }
+@media (max-width: 768px) {
+  .container{
+    height: 100vh;
+  }
+}
 
 .subContainer{
   margin: auto;
@@ -15,6 +20,11 @@
   padding-top: 20px;
  padding-bottom: 50px;
 }
+@media (max-width: 768px) {
+  .subContainer{
+    width: 90vw;
+  }
+}
 
 .contTitle{
   background-color: var(--fdC);
@@ -24,10 +34,26 @@
  margin-left: 35%;
  margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .contTitle{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 1px 20px;
+    padding-bottom: 5px;
+
+  }
+}
 
 .h1{
     text-align: center;
     color: var(--flC);
+}
+@media (max-width: 768px) {
+  .h1{
+   font-size: 20px;
+
+  }
 }
 
 .contContImg{

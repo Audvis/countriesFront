@@ -3,12 +3,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-   
 }
+@media (max-width: 768px) {
+    .ul{
+        font-size: 15px;
+    }
+  }
 
 .li{
     margin: 25px;
-    
     background-color: var(--lC);
     box-shadow: var(--shadowBox);
     border-radius: var(--radius);
@@ -16,7 +19,14 @@
     height: 250px;
     text-align: center;
    padding-top: 5px;
+   
 }
+@media (max-width: 768px) {
+    .li{
+        margin-left: 0;
+       
+    }
+  }
 
 .contTitle{
     background-color: var(--flC);
@@ -25,6 +35,12 @@
    width: 200px;
    margin: auto;
 }
+@media (max-width: 768px) {
+    .contTitle{
+        width: 97%;
+        
+    }
+  }
 
 .p{
     font-weight: 400;

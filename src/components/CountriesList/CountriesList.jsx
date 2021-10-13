@@ -13,7 +13,7 @@ const CountriesList = ({ stateLoading, currentCountries, countriesActivity }) =>
 
 
   return (
-    <div>
+    <div className={style.container}>
       {stateLoading ? (
         <h2>Loading....</h2>
       ) : (
