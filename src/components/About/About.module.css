@@ -15,6 +15,9 @@
 @media (max-width: 768px) {
     .container{
       width: 90%;
+      flex-direction: row;
+      height: fit-content;
+      justify-content: center;
     }
   }
 
@@ -38,8 +41,8 @@
     margin-top: 10px;
     color: var(--flC);
     text-align: center;
-  
 }
+
 
 .subContainerOne{
     display: flex;
@@ -49,13 +52,19 @@
 @media (max-width: 768px) {
     .subContainerOne{
      flex-direction: column;
-     background-color: red;
+     align-items: center;
+    font-size: 15px;
     }
   }
 
 .infoContainer{
     width: 50%;
 }
+@media (max-width: 768px) {
+    .infoContainer{
+      text-align: center;
+    }
+  }
 
 .img{
     width: 200px;
@@ -82,10 +91,16 @@
     bottom: 40px;
     right: 40px;
 }
-
 .link:hover{
     background-color: var(--success);
 }
+@media (max-width: 768px) {
+    .link{
+      position: initial;
+      margin-top: 20px;
+     margin-bottom: 70px;
+    }
+  }
 
 .soy{
     margin-right: 10px;
@@ -96,3 +111,10 @@
 .henry{
     box-shadow: var(--shadowBoxBtn);
 }
+
+@media (max-width: 768px) {
+    .name{
+     text-align: center;
+     font-size: 20px;
+    }
+  }
