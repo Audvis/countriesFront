@@ -12,6 +12,11 @@
    align-items: center;
    flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+    .container{
+      width: 90%;
+    }
+  }
 
 .flexOne{
     display: flex;
@@ -31,6 +36,13 @@
     text-align: center;
     padding-bottom: 20px;
 }
+@media (max-width: 768px) {
+    .contFlagCont{
+      width: 60%;
+    }
+  }
+
+
 
 .contFlag{
 margin-top: 14px;
@@ -41,12 +53,22 @@ margin-left: 20px;
     width: max-content;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .contFlag{
+      width: 85%;
+    }
+  }
 
 .flag{
     width: 350px;
     box-direction: 3px solid red;
     border-radius: var(--radius);
 }
+@media (max-width: 768px) {
+    .flag{
+      width: 100%;
+    }
+  }
 
 .contName{
     background-color: var(--fdC);
@@ -59,9 +81,20 @@ margin-left: 20px;
     margin-top: 120px;
     margin-left: 25px;
 }
+@media (max-width: 768px) {
+    .contName{
+      width: fit-content;
+      padding: 10px;
+    }
+}
 
 .title{
     color: var(--flC);
+}
+@media (max-width: 768px) {
+    .title{
+      font-size: 25px;
+    }
 }
 
 .flexTwo{
