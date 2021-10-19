@@ -12,10 +12,11 @@
 }
 @media (max-width: 768px) {
     .bar{
-      width: 60%;
+      width: 80%;
       display: flex;
       justify-content: center;
-      left: 20%;
+      left: 11%;
+      bottom: 11px;
     }
   }
 
