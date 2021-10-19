@@ -10,6 +10,14 @@
     border-radius: var(--radius);
     box-shadow: var(--shadowBox);
 }
+@media (max-width: 768px) {
+    .bar{
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      left: 20%;
+    }
+  }
 
 .btn{
     margin-left: 50px;
@@ -56,6 +64,3 @@
   
 }
 
-.icon:hover{
-    
-}

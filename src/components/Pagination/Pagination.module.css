@@ -4,6 +4,11 @@
     width: 20%;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    .container{
+      display: none;
+    }
+  }
 
 .li{
     list-style: none;
@@ -11,3 +16,34 @@
     
 }
 
+.paginateMovil{
+    display: none;
+}
+@media (max-width: 768px) {
+    .paginateMovil{
+      display: flex;
+      align-items: center;
+    }
+  }
+ 
+
+.btn{
+    background-color: var(--fdCT);
+    border: none;
+    height: 17px;
+}  
+
+
+
+.icon{
+    color: var(--flC);
+}
+
+.iconStop{
+    color: var(--alert);
+}
+
+
+.pages{
+    color: var(--flC);
+}

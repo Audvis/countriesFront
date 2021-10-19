@@ -21,8 +21,14 @@ const PaginationBar = ({
 
   return (
     <div className={style.bar}>
+      <div className={style.pagination}>
+        <Pagination
+          countriesPerPage={countriesPerPage}
+          totalCountries={totalCountries}
+          paginate={paginate}
+        />
+      </div>
       <button
-      
       className={switchState? style.btn: style.btnOff}
         onClick={(e) => {
           switchSideBar();
@@ -31,16 +37,7 @@ const PaginationBar = ({
         <span className={style.icon}>
         <i className="fas fa-search"></i>
         </span>
-      
       </button>
-
-      <div className={style.pagination}>
-        <Pagination
-          countriesPerPage={countriesPerPage}
-          totalCountries={totalCountries}
-          paginate={paginate}
-        />
-      </div>
     </div>
   );
 };

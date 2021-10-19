@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SideBar from "../SideBar/SideBar";
 import CountriesList from "../CountriesList/CountriesList";
 import PaginationBar from "../PaginationBar/PaginationBar";
+import style from "./Home.module.css";
 
 import { connect } from "react-redux";
 
@@ -13,7 +14,7 @@ const Home = ({
   filterContinent,
   filterActivity,
   countriesActivity,
-  stateLoading
+  stateLoading,
 }) => {
   //*___statePagination_________________________________________________________________
   const [currentPage, setcurrentPage] = useState(1);
@@ -21,10 +22,8 @@ const Home = ({
   //*_____________________________________________________________________________________
 
   if (stateLoading) {
-        return <h2>Loading...</h2>;
-      }
-
-
+    return <h2>Loading...</h2>;
+  }
 
   //*switch
   const switchMaster = filterBy;
@@ -91,27 +90,27 @@ const Home = ({
   const paginate = (pageNumber) => setcurrentPage(pageNumber);
   //*_____________________________________________________________________________________________________
 
-
-
   return (
     <>
       {switchSide ? (
-        <div >
+        <div>
           <SideBar />
         </div>
       ) : (
         <div></div>
       )}
 
-      <div >
+      <div>
         <CountriesList currentCountries={currentCountries} />
       </div>
 
-      <PaginationBar
-        countriesPerPage={countriesPerPage}
-        totalCountries={countries.length}
-        paginate={paginate}
-      />
+      <div className={style.pageBar}>
+        <PaginationBar
+          countriesPerPage={countriesPerPage}
+          totalCountries={countries.length}
+          paginate={paginate}
+        />
+      </div>
     </>
   );
 };
