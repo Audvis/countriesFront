@@ -37,9 +37,7 @@ const Filters = ({
     fetchCountries();
   }, [getActivities]);
 
-  if (Loading) {
-    return <h2>Loading...</h2>;
-  }
+  
 
   function byPopulation() {
     setFilterBy(false);
@@ -80,11 +78,15 @@ const Filters = ({
           <option value="All" key="All">
             All
           </option>
+          {Loading? <p>Loading Activities</p>: 
+          <>
           {activities.map((e) => (
             <option value={e.name} key={e.name}>
               {e.name}
             </option>
           ))}
+          </>
+          }
         </select>
       </div>
 

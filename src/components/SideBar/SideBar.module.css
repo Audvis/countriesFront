@@ -11,13 +11,11 @@
 }
 @media (max-width: 768px) {
   .sideBar{
-    max-width: 100vw;
     margin-top: 30px;
     font-size: 10px;
     overflow:scroll;
-    height:550px;
+    height:600px;
     width: 100%;
-
   }
 }
 

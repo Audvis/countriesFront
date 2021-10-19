@@ -6,11 +6,9 @@ import style from './SideBar.module.css';
 import SearchBar from "../SearchBar/SearchBar";
 
 const SideBar = ({setSwitchSide}) => {
-
     function switchSideBar(){
         setSwitchSide(false)
     }
-
     return (
         <div className={style.sideBar}>
             <button className={style.close} onClick={e => {switchSideBar()}}>X</button>
@@ -19,7 +17,6 @@ const SideBar = ({setSwitchSide}) => {
         </div>
     )
 }
-
 
 function mapStateToProps(state) {
     return {

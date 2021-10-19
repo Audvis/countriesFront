@@ -1,7 +1,12 @@
 .container{
     margin: 50px;
-    margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .container{
+        margin-bottom: 130px;
+    }
+  }
+
 
 .display{
     background-color: var(--flC);
