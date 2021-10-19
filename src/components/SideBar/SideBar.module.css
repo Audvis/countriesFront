@@ -1,6 +1,6 @@
 .sideBar {
   position: fixed;
-  top: 100px;
+  top: 97px;
   max-width: 350px;
   height: 750px;
   background-color: var(--fdC);
@@ -11,13 +11,14 @@
 }
 @media (max-width: 768px) {
   .sideBar{
-    overflow:auto;
     max-width: 100vw;
     margin-top: 30px;
     font-size: 10px;
-    height: fit-content;
+    overflow:scroll;
+    height:550px;
+    width: 100%;
+
   }
-  
 }
 
 .close{
